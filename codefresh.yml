@@ -3,7 +3,7 @@ steps:
   build-the-image:
     type: build
     description: Builds my service
-    image_name: antweiss/otofrontend
+    image_name: thpr/otofrontend
     tag: ${{CF_SHORT_REVISION}}
   push-the-image:
     type: push
